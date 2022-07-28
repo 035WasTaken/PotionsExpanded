@@ -39,5 +39,15 @@ namespace PotionsExpanded.Content.Items.Potions
             Item.buffType = ModContent.BuffType<Buffs.SpiritDanceBuff>();
             Item.buffTime = 270 * 60;
         }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+            .AddIngredient(ItemID.FragmentNebula, 10)
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.Ectoplasm)
+            .AddTile(TileID.Bottles)
+            .Register();
+        }
     }
 }

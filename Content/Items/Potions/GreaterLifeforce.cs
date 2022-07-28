@@ -41,5 +41,40 @@ namespace PotionsExpanded.Content.Items.Potions
             // seconds * ticks per second
             Item.buffTime = 300 * 60;
         }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+            .AddIngredient(ItemID.FragmentSolar, 10)
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.CrystalShard, 5)
+            .AddIngredient(ItemID.LifeFruit)
+            .AddTile(TileID.Bottles)
+            .Register();
+
+            CreateRecipe()
+            .AddIngredient(ItemID.FragmentNebula, 10)
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.CrystalShard, 5)
+            .AddIngredient(ItemID.LifeFruit)
+            .AddTile(TileID.Bottles)
+            .Register();
+
+            CreateRecipe()
+            .AddIngredient(ItemID.FragmentVortex, 10)
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.CrystalShard, 5)
+            .AddIngredient(ItemID.LifeFruit)
+            .AddTile(TileID.Bottles)
+            .Register();
+
+            CreateRecipe()
+            .AddIngredient(ItemID.FragmentStardust, 10)
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.CrystalShard, 5)
+            .AddIngredient(ItemID.LifeFruit)
+            .AddTile(TileID.Bottles)
+            .Register();
+        }
     }
 }
