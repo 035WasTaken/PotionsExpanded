@@ -46,7 +46,7 @@ namespace PotionsExpanded.Content.Items.Potions
             .AddIngredient(ItemID.FragmentNebula, 10)
             .AddIngredient(ItemID.BottledWater, 1)
             .AddIngredient(ItemID.Ectoplasm)
-            .AddTile(TileID.Bottles)
+            .AddTile(TileID.AlchemyTable)
             .Register();
         }
     }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NeHuy6PfRM7nzdPkoiIpzkDLYWq4vzHUtl5PZy39oBrW6Ll3ITJC2OUjkG8Nr9+vmnsPXCJEtD/51DhTMta0eQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\lenur\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PotionsExpanded\\PotionsExpanded.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenur\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -49,7 +49,7 @@ namespace PotionsExpanded.Content.Items.Potions
             .AddIngredient(ItemID.BottledWater, 1)
             .AddIngredient(ItemID.CrystalShard, 5)
             .AddIngredient(ItemID.LifeFruit)
-            .AddTile(TileID.Bottles)
+            .AddTile(TileID.AlchemyTable)
             .Register();
 
             CreateRecipe()
@@ -57,7 +57,7 @@ namespace PotionsExpanded.Content.Items.Potions
             .AddIngredient(ItemID.BottledWater, 1)
             .AddIngredient(ItemID.CrystalShard, 5)
             .AddIngredient(ItemID.LifeFruit)
-            .AddTile(TileID.Bottles)
+            .AddTile(TileID.AlchemyTable)
             .Register();
 
             CreateRecipe()
@@ -65,7 +65,7 @@ namespace PotionsExpanded.Content.Items.Potions
             .AddIngredient(ItemID.BottledWater, 1)
             .AddIngredient(ItemID.CrystalShard, 5)
             .AddIngredient(ItemID.LifeFruit)
-            .AddTile(TileID.Bottles)
+            .AddTile(TileID.AlchemyTable)
             .Register();
 
             CreateRecipe()
@@ -73,7 +73,7 @@ namespace PotionsExpanded.Content.Items.Potions
             .AddIngredient(ItemID.BottledWater, 1)
             .AddIngredient(ItemID.CrystalShard, 5)
             .AddIngredient(ItemID.LifeFruit)
-            .AddTile(TileID.Bottles)
+            .AddTile(TileID.AlchemyTable)
             .Register();
         }
     }
