@@ -16,9 +16,9 @@ namespace PotionsExpanded.Content.Items.Potions
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 20;
 
             ItemID.Sets.DrinkParticleColors[Type] = new Color[3] {
-                new Color(255, 0, 0),
-                new Color(200, 80, 60),
-                new Color(207, 58, 36),
+                new Color(170, 147, 239),
+                new Color(91, 79, 127),
+                new Color(124, 105, 179),
             };
         }
 
